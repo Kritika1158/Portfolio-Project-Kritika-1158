@@ -15,7 +15,7 @@
     font-family:'Calibri';
     font:30px/19px Inter;
     letter-spacing: 0px;
-    color:#105652;
+    color:royalblue;
     opacity: 1;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .ico:hover{
-    color:orange;
+    color:#55ACEE;
     transition:opacity 0.6s ease-in;
 }
 
@@ -40,7 +40,7 @@
     margin-left:70px;
     width: 1340px;
     height: 450px;
-    background:linear-gradient(#072b29,#09BCAB ) 30% 70%;
+    background:linear-gradient(#4d1c88,#09BCAB ) 30% 70%;
     box-shadow: 0px 3px 59px #B9164614;
     opacity: 1;
 }
@@ -106,10 +106,13 @@
     transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
     transition-property:none;
     transition-duration: 0.75s;
+    transition-delay:2s ;
 }
 
 #res{
-    margin-left: 23px;
+    top:360px;
+    left: 353px;
+    position:absolute;
     padding-left: 2px;
     background:orange 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 30px rgb(135, 104, 47);
@@ -118,7 +121,8 @@
 }
 
 .imga{
-    padding-left: 74px;
+    left: 374px;
+    position:absolute;
     margin-top:-300px;
     padding-left: 615px;
     width: 300px;
@@ -134,7 +138,7 @@
     margin-top:0px;
     margin-left: 70px;
     width: 1340px;
-    height: 4436px;
+    height: 660px;
     background: #F7F7F7 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -159,13 +163,16 @@
 .im{
     grid-area:1/1/4/2;
     margin-top:-100px;
+    left:90px;
+    position: relative;
 }
 
 .ab{
     width: 200px;
     height: 5px;
     text-align:left;
-    text-decoration: underline orange;
+    text-decoration: underline gold;
+    text-underline-offset: 12px;
     font: normal normal bold 36px/44px Inter;
     letter-spacing: 0px;
     color: #105652;
@@ -218,7 +225,8 @@
         height: 5px;
         margin-top:40px;
         margin-left: 600px;
-        text-decoration: underline orange;
+        text-decoration: underline gold;
+        text-underline-offset: 12px;
         font: normal normal bold 36px/44px Inter;
         letter-spacing: 0px;
         color: #105652;
@@ -255,7 +263,8 @@
     width: 200px;
     height: 5px;
     text-align:center;
-    text-decoration: underline orange;
+    text-decoration: underline gold;
+    text-underline-offset: 12px;
     font: normal normal bold 36px/44px Inter;
     letter-spacing: 0px;
     color: #105652;
@@ -285,8 +294,6 @@
 .text{
     margin-top:-490px;
     margin-left: 673px;
-    width: 570px;
-    height: 606px;
     background: #FBF3E4 0% 0% no-repeat padding-box;
     border-radius: 0px 10px 10px 0px;
     opacity: 1;
